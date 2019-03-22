@@ -1,10 +1,11 @@
 # SimpleRtspViewer
 This repo is simple RTSP viewer using OpenCV, and you can run this on Windows or Linux OS.
 
-## Requirements
-- OpenCV 3.0.0 or above
-- CMake 2.8 or above
-- Visual studio 2015 or above
+## My environment
+- OpenCV 4.1.0
+- CMake 3.12.3
+- Windows 10, Visual studio 2017
+- Ubuntu 16.04 LTS
 
 ## How to build
 - Linux
