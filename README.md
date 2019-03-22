@@ -1,5 +1,5 @@
 # SimpleRtspViewer
-Simple RTSP viewer using OpenCV, and you can run on Windows or Linux OS.
+This repo is simple RTSP viewer using OpenCV, and you can run this on Windows or Linux OS.
 
 ## Requirements
 - OpenCV 3.0.0 or above
