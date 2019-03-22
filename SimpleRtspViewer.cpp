@@ -1,4 +1,4 @@
-// RtspCV.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// SimpleRtspViewer.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 #include <iostream>
 
@@ -39,7 +39,6 @@ int main(int argc, char *argv[])
 
 	if (!stream.isOpened()) {
 		std::cerr << "Stream open failed : " << streamURL << std::endl;
-		system("PAUSE");
 		return EXIT_FAILURE;
 	}
 
