@@ -36,5 +36,5 @@ $ ./SimpeRtspViewer "your RTSP link"
 
 - Windows
 ```bash
-% SimpeRtspViewer "your RTSP link"
+% SimpeRtspViewer.exe "your RTSP link"
 ```
