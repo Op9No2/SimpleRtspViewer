@@ -4,6 +4,7 @@
 
 // opencv 
 #include <opencv2/opencv.hpp>
+#include <opencv2/highgui/highgui.hpp>
 
 // list
 #include <list>
@@ -17,6 +18,7 @@ std::list<cv::Mat> frames;
 // thread function for video show
 void drawFrame(bool isRun)
 {
+	cv::namedWindow("RTSP window", cv::WindowFlags::WINDOW_AUTOSIZE);
 	while (isRun) {
 		if (frames.size() > 1) {
 			cv::imshow("RTSP window", frames.front());
