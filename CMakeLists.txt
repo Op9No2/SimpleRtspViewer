@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( SimpleRtspViewer )
+find_package( OpenCV REQUIRED )
+add_executable( SimpleRtspViewer SimpleRtspViewer.cpp )
+target_link_libraries( SimpleRtspViewer ${OpenCV_LIBS} )
