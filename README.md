@@ -24,7 +24,7 @@ $ make
 % cd SimpleRtspViewer/
 % mkdir build
 % cd build/
-% cmake -G"Visual Studio 15" .. -DCMAKE_BUILD_TYPE=RELEASE -DOpenCV_DIR="your opencv folder"
+% cmake -G "Visual Studio 15" .. -DCMAKE_BUILD_TYPE=RELEASE -DOpenCV_LIBS="your opencv folder" -DOpenCV_DIR="your opencv folder"
 % open SimpleRtspViewer.sln by Visual studio
 % Build -> Build Solution
 ```
